@@ -1,0 +1,227 @@
+body {
+    margin: auto;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#landingPage {
+    background-image: url("./Assets/superiorbackground.jpg");
+    height: 167vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.landingPageText {
+    top: 367px;
+    right: 500px;
+    z-index: 0;
+    position: absolute;
+}
+
+.landingPageText h1 {
+    font-size: 67px;
+    text-shadow: .4rem .4rem .9rem whitesmoke;
+    color: #061700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landingPageText h3 {
+    font-size: 27px;
+    text-shadow: .1rem .1rem .8rem whitesmoke;
+    color: #061700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: -60px;
+    right: 0px;
+}
+
+.topnav {
+    overflow: hidden;
+    justify-content: center;
+    display: inline-block;
+    position: fixed;
+    z-index: 0;
+}
+
+.topnav a {
+    display: flex;
+    float: right;
+    background-color: transparent;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 23px;
+    text-shadow: .4rem .4rem .9rem rgb(128, 0, 0);
+}
+
+.topnav a:hover {
+    background-color: #1f4037;
+    color: #6dd5ed;
+}
+
+#about h1 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card {
+    width: 20vw;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+body {
+    background-image: linear-gradient(#2980b9, #6dd5fa, #ffffff);
+}
+
+#portfolio h1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-body .btn {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: #093028;
+    color: white;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.card-body .btn:hover {
+    transform: scale(1.04, 1);
+    background-color: #237a57;
+    text-decoration: none;
+}
+
+.portfoliosection {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.experiencesection h1 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.skillssection h1 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.skillssection img #html {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsection img #css {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillsection img #js {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contactsection h1 {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.card-body h5 {
+    font-size: 20px;
+}
+
+#experience {
+    text-align: space-evenly;
+    overflow-x: hidden;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.experiencesection hr {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experiencesection h4 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.experiencesection p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: #093028;
+    color: white;
+    padding: 23px 50px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+ 
+input[type=submit]:hover {
+    transform: scale(1.04, 1);
+    background-color: #237a57;
+    text-decoration: none;
+}
+
+.contactsection label {
+    font-size: 17px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
